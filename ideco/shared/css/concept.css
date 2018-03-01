@@ -1,0 +1,51 @@
+#navmain{
+	background: #fff;
+}
+#sec1{
+	margin-top: 81px;
+	padding: 75px 0 130px;
+}
+#sec1 h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	line-height: 45px;
+}
+#sec1 .note{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 60px;
+}
+#sec1 .sub_ttl{
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 48px;
+	margin-bottom: 33px;
+}
+#sec1 .art{
+	margin-top: 50px;
+}
+#sec1 .bottom_ttl{
+	margin-top: 65px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+}
+@media screen and (max-width: 639px) {
+	#sec1{
+		padding: 30px 5px 50px;
+	}
+	#sec1 h2{
+		font-size: 30px;
+	}
+	#sec1 .note{
+		font-size: 15px;
+		margin-top: 0;
+	}
+	#sec1 .bottom_ttl{
+		text-align: left !important;
+		margin-top: 50px;
+	}
+}

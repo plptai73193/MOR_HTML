@@ -1,0 +1,200 @@
+#navmain{
+	background: #fff;
+}
+#sec1{
+	margin-top: 81px;
+	padding: 70px 5px 50px;
+}
+#sec1 h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	line-height: 45px;
+}
+#sec1 .note{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 25px;
+	margin-bottom: 60px;
+}
+#sec1 h3.ttl{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+#sec1 .chart{
+	margin-bottom: 25px;
+}
+#sec1 .qa{
+	font-size: 16px;
+	font-weight: bold;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#sec1 .qa + .qa{
+	margin-top: 30px;
+}
+#sec1 dt, #sec1 dd{
+	float: left;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+#sec1 dt{
+	width: 19%;
+}
+#sec1 dd{
+	width: 81%;
+}
+#sec1 .desc{
+	font-size: 20px;
+	margin-top: 45px;
+	font-weight: bold;
+	max-width: 966px;
+}
+#sec2{
+	background: #fff;
+	padding: 50px 0 170px;
+	color: #000;
+}
+#sec2 h2{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 41px;
+}
+#sec2 .note{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 17px;
+}
+#sec2 .outer{
+	max-width: 303.5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45px;
+}
+#sec2 .ttl{
+	min-height: 70px;
+	color: #fff;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -ms-align-items: stretch;
+    align-items: stretch;
+    -webkit-align-items: stretch;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 5px 15px 5px 0;
+}
+#sec2 .ttl.ttl1{
+	background: url('../img/merit/icon1.png') no-repeat center left 21px,#000;
+	padding-left: 89px;
+}
+#sec2 .ttl.ttl2{
+	background: url('../img/merit/icon2.png') no-repeat center left 21px,#000;
+	padding-left: 93px;
+}
+#sec2 .ttl.ttl3{
+	background: url('../img/merit/icon3.png') no-repeat center left 20px,#000;
+	padding-left: 97px;
+}
+#sec2 .ttl.ttl4{
+	background: url('../img/merit/icon4.png') no-repeat center left 28px,#000;
+	padding-left: 92px;
+}
+#sec2 .ttl.ttl5{
+	background: url('../img/merit/icon5.png') no-repeat center left 28px,#000;
+	padding-left: 93px;
+}
+#sec2 .ttl.ttl6{
+	background: url('../img/merit/icon6.png') no-repeat center left 28px,#000;
+	padding-left: 98px;
+}
+#sec2 .ttl.ttl7{
+	background: url('../img/merit/icon7.png') no-repeat center left 14px,#000;
+	padding-left: 90px;
+}
+#sec2 .ttl.ttl8{
+	background: url('../img/merit/icon8.png') no-repeat center left 25px,#000;
+	padding-left: 94px;
+}
+#sec2 .ttl.ttl9{
+	background: url('../img/merit/icon9.png') no-repeat center left 35px,#000;
+	padding-left: 98px;
+}
+#sec2 .ttl.ttl10{
+	background: url('../img/merit/icon10.png') no-repeat center left 25px,#000;
+	padding-left: 90px;
+}
+#sec2 .ttl.ttl11{
+	background: url('../img/merit/icon11.png') no-repeat center left 23px,#000;
+	padding-left: 94px;
+}
+#sec2 .text{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 28px;
+	letter-spacing: 0;
+}
+#sec2 .text .link{
+	position: relative;
+}
+#sec2 .text .link:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+#sec2 .text .link:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1px;
+	background: #000;
+	-webkit-transition: all .25s ease !important;
+     -moz-transition: all .25s ease !important;
+      -ms-transition: all .25s ease !important;
+       -o-transition: all .25s ease !important;
+          transition: all .25s ease !important;
+}
+#sec2 .text .link:hover:after{
+	opacity: 0;
+	-webkit-transition: all .25s ease !important;
+     -moz-transition: all .25s ease !important;
+      -ms-transition: all .25s ease !important;
+       -o-transition: all .25s ease !important;
+          transition: all .25s ease !important;
+}
+@media screen and (max-width: 767px){
+	#sec1 h3.ttl.mt{
+		margin-top: 60px;
+	}
+	#sec1 dt{
+		width: 20%;
+		padding-right: 5px;
+	}
+	#sec1 dd{
+		width: 80%;
+		padding-left: 5px;
+	}
+	#sec1 .desc{
+		text-align: left;
+	}
+	#sec2{
+		padding-bottom: 50px;
+	}
+	#sec2 .outer{
+		max-width: initial;
+	}
+	.heightLine-p{
+		height: auto !important;
+	}
+}

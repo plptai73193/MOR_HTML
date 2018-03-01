@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+	<meta charset="UTF-8">
+	<title>お問い合わせ | イデコ　IDECO</title>
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="ja_JP" />
+	<meta property="og:title" content="お問い合わせ | イデコ　IDECO" />
+	<meta property="og:site_name" content="お問い合わせ | イデコ　IDECO" />
+	<meta property="og:description" content="簡単に変えられる新しい壁タイル「イデコ」について、こちらからお気軽にお問い合わせください。" />
+	<meta name="keywords" content="イデコ,IDECO,お問い合わせ" />
+	<meta name="description" content="簡単に変えられる新しい壁タイル「イデコ」について、こちらからお気軽にお問い合わせください。" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="shared/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="shared/css/common.css" type="text/css" />
+	<link rel="stylesheet" href="shared/css/lightbox.min.css" type="text/css" />
+	<link rel="stylesheet" href="shared/css/shared.css" type="text/css" />
+	<link rel="stylesheet" href="shared/css/contact.css" type="text/css" />
+</head>
+<body class="nav_show">
+	<nav id="navmain" class="navbar navbar-default" role="navigation">
+		<div class="container w100">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle smbtn" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">
+					<img src="shared/img/shared/logo.png" alt="ideco" >
+				</a>
+			</div>
+			<div class="navbar-collapse dn">
+				<ul class="nav navbar-nav navbar-right">
+					<a id="sm-btn-close" class="sm-btn smbtn">
+						<span class="line line1"></span>
+						<span class="line line2"></span>
+					</a>
+					<li class="btn_over"><a href="index.html" class="btn1">HOME</a></li>
+					<li class="btn_over"><a href="#" class="op30">壁の未来</a></li>
+					<li class="btn_over"><a href="concept.html">Concept</a></li>
+					<li class="btn_over"><a href="product.html" class="btn1">製品情報</a></li>
+					<li class="btn_over"><a href="function.html" class="btn1">機能紹介</a></li>
+					<li class="btn_over"><a href="contact.html" class="btn1">お問い合わせ</a></li>
+					<li class="btn_over"><a href="#" class="btn1 op30">EN</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<main>
+		<div id="sec1">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h2 class="text-center">Contact</h2>
+						<div class="note text-center">お問い合わせ</div>
+						<div class="desc text-center">商品のご注文に関するお問合せは、入力フォームの下の「特約販売店」までお問合せくださいませ。<br>
+尚、その他のお問合せに関しましてはこちらのフォームよりご入力ください。*は必須です。</div>
+						<form id="contact-form" method="post" action="mail.php">
+							<div class="info clearfix">
+								<table>
+									<tr>
+										<td class="left">お問い合わせ項目</td>
+										<td class="right form-group">
+											<select class="form-control select-form" name="inquiry_item">
+												<option class="fwb" value="製品について">製品について</option>
+												<option class="fwb" value="カタログ請求">カタログ請求</option>
+												<option class="fwb" value="特約店のお申込みについて">特約店のお申込みについて</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td class="left">会社名 / 個人*</td>
+										<td class="right form-group">
+											<input type="text" id="name" class="form-control input-form" name="name">
+										</td>
+									</tr>
+									<tr>
+										<td class="left">会社名 / 個人(フリガナ)*</td>
+										<td class="right form-group">
+											<input type="text" id="name-kana" class="form-control input-form" name="name_kana">
+										</td>
+									</tr>
+									<tr>
+										<td class="left">会社業態</td>
+										<td class="right form-group">
+											<select class="form-control select-form" name="company_category">
+												<option class="fwb" value="設計事務所">設計事務所</option>
+												<option class="fwb" value="工務店">工務店</option>
+												<option class="fwb" value="メーカー">メーカー</option>
+												<option class="fwb" value="個人">個人</option>
+												<option class="fwb" value="その他">その他</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td class="left">担当者名 / お名前</td>
+										<td class="right form-group">
+											<input type="text" class="form-control input-form" name="contact_name">
+										</td>
+									</tr>
+									<tr>
+										<td class="left">担当者名 / お名前(フリガナ)</td>
+										<td class="right form-group">
+											<input type="text" class="form-control input-form" name="contact_name_kana">
+										</td>
+									</tr>
+									<tr>
+										<td class="left">メールアドレス*</td>
+										<td class="right form-group">
+											<input type="text" id="email" class="form-control input-form" name="email">
+										</td>
+									</tr>
+									<tr>
+										<td class="left">TEL</td>
+										<td class="right form-group">
+											<input type="text" class="form-control input-form" name="telephone">
+										</td>
+									</tr>
+									<tr>
+										<td class="left">検討している案件</td>
+										<td class="right form-group">
+											<select class="form-control select-form" name="consider">
+												<option class="fwb" value="新築">新築</option>
+												<option class="fwb" value="リフォーム">リフォーム</option>
+												<option class="fwb" value="店舗">店舗</option>
+												<option class="fwb" value="商業施設">商業施設</option>
+												<option class="fwb" value="その他">その他</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td class="left">ご質問など</td>
+										<td class="right form-group">
+											<textarea class="form-control text-form" rows="8" name="question"></textarea>
+										</td>
+									</tr>
+								</table>
+							</div>
+							<h3 class="text-center">お問い合わせにおける<br class="vis-xs">個人情報の取扱いについて</h3>
+							<div class="box">
+								<p class="ttl text-center">プライバシーポリシー</p>
+								<p class="text">グローバルストーンマテリアル株式会社（以下、「併せて当社」）では、個人情報保護の重要性を深く認識し、個人情報保護に関する法令を遵守します。当サイトをご利用いただくお客様のプライバシーを尊重し、お預りする個人情報を保護するため、細心の注意を払い次の通り方針を定めます。この方針には当社の全社員が一体となって取組み、継続的な改善に努めてまいります。</p>
+								<ul>
+									<li>当社は、お客様から個人情報をご提供いただくにあたり、お客様ご本人の確認および必要なご連絡のため、ご提供いただきます。また、ご提供いただいた個人情報は、それ以外の目的のための取扱いはいたしません。</li>
+									<li>当社は、お預かりした個人情報については、個人情報への不正アクセス、紛失、破壊、改ざんおよび漏えいなどの予防ならびに是正に努めます。</li>
+									<li>当社は、法で定める場合を除き、あらかじめお客様の同意を得ずに、お客様の個人情報を第三者に提供することはいたしません。</li>
+									<li>当社は、個人情報の取扱いを当社以外の第三者に委託する場合、個人情報の利用目的の達成に必要な範囲内に限定し、個人情報を取扱う委託先等に対しても、個人情報の適切な取扱いを要請します。</li>
+									<li>当社は、お客様が提供された個人情報の確認・訂正などを希望される場合は、適切にこれに対応いたします。</li>
+								</ul>
+							</div>
+							<div class="agreement text-center">
+								このフォーム頂戴する個人情報の<br class="vis-xs">取扱いに同意される場合は、<br>チェックをお願いします。
+							</div>
+							<div class="form-group text-center check">
+							    <div class="checkbox">
+							        <label>
+							        	<input type="checkbox" id="agree-checkbox"><span>同意する</span>
+							        </label>
+							    </div>
+							</div>
+							<div class="send text-center">
+								<button id="submit-btn" type="submit" class="btn btn-primary btn-lg" disabled="disabled">送 信</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="sec2">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h2 class="text-center">Shop</h2>
+						<div class="note text-center">特約販売店</div>
+						<div class="text-center">
+							<div class="box">
+								<a href="mailto:ideco@meikus.co.jp">
+									<div class="heightLine-1">
+										<p class="ttl">株式会社メイク</p>
+										<p class="desc">リフォーム推進室</p>
+									</div>
+									<div class="info">
+										<p>〒 160-0003<br>東京都新宿区四谷本塩町14-1</p>
+										<p class="mail">ideco@meikus.co.jp</p>
+									</div>
+								</a>
+							</div>							
+							<div class="box">
+								<a href="mailto:info-ideco@nicco-kk.co.jp">
+									<div class="heightLine-1">
+										<p class="ttl">株式会社日広</p>
+									</div>
+									<div class="info">
+										<p>〒 386-0002<br/>長野県上田市住吉 67-1</p>
+										<p class="mail">info-ideco@nicco-kk.co.jp</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="sec3">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h2 class="text-center">Show room</h2>
+						<div class="note text-center">ショールーム</div>
+						<p class="text">ご来観の際は事前にご予約いただきますようお願いいたします。<br>お手数ですが、ご予約は下記までご連絡くださいませ。</p>
+						<div class="contact_info text-center">
+							<p><a href="mailto:info＠gsm-japan.com">Mail :  info＠gsm-japan.com</a></p>
+							<p><a href="tel:09031459038">TEL :  09031459038</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="map" class="clearfix">
+			<div id="gmap">
+				<p class="ttl heightLine-e">銀座ショールーム<br />(チーズルームアカデミー内)<br />東京都中央区銀座2丁目12番地10号</p>
+				<div id="map_import"></div>
+			</div>
+			<div id="gmap">
+				<p class="ttl ttl2 heightLine-e">浦和美園ショールーム<br />(チーズルーム内)<br />埼玉県さいたま市岩槻区美園東2丁目17番13</p>
+				<div id="map_import2"></div>
+			</div>
+		</div>
+		<div id="sec4">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h2 class="text-center">Certificate of utility</h2>
+						<div class="note text-center">実用新登録</div>
+						<p class="desc text-center">IDECOライセンス</p>
+						<div class="img">
+							<img src="shared/img/contact/cer.png" alt="" class="" width="100%">
+							<img src="shared/img/contact/cer2.png" alt="" class="" width="100%">
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 item1 btn_hover plur item_link">
+					<a href="#sec2">
+						<p class="ttl"><span>特約店募集</span></p>
+						<div class="btn_link">
+							<img src="shared/img/shared/arrow2.png" alt="" class="btn1">
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 item1 btn_hover plur item_link">
+					<a href="merit.html">
+						<p class="ttl"><span>IDECOのメリット</span></p>
+						<div class="btn_link">
+							<img src="shared/img/shared/arrow2.png" alt="" class="btn1">
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 item1 bdn btn_hover plur item_link">
+					<a href="#sec3">
+						<p class="ttl"><span>ショールーム<br class="visible-mb">に行く</span></p>
+						<div class="btn_link">
+							<img src="shared/img/shared/arrow2.png" alt="" class="btn1">
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-right">
+					<div class="dl_btn">
+						<form method="get" action="shared/download/IDECO_catalog.pdf">
+						   <button type="submit">カタログPDF <span class="fa fa-angle-right"></span></button>
+						</form>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-left">
+					<address>&copy;GSM INC.</address>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div id="loading-overlay" class="loading hidden">Loading&#8230;</div>
+	<style>
+		/* Loading spinner*/
+		.loading{position:fixed;z-index:999;height:2em;width:2em;overflow:show;margin:auto;top:0;left:0;bottom:0;right:0}.loading:before{content:'';display:block;position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(245,245,245,0.7)}.loading:not(:required){font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.loading:not(:required):after{content:'';display:block;font-size:10px;width:1em;height:1em;margin-top:-.5em;-webkit-animation:spinner 1500ms infinite linear;-moz-animation:spinner 1500ms infinite linear;-ms-animation:spinner 1500ms infinite linear;-o-animation:spinner 1500ms infinite linear;animation:spinner 1500ms infinite linear;border-radius:.5em;-webkit-box-shadow:rgba(0,0,0,0.75) 1.5em 0 0 0,rgba(0,0,0,0.75) 1.1em 1.1em 0 0,rgba(0,0,0,0.75) 0 1.5em 0 0,rgba(0,0,0,0.75) -1.1em 1.1em 0 0,rgba(0,0,0,0.5) -1.5em 0 0 0,rgba(0,0,0,0.5) -1.1em -1.1em 0 0,rgba(0,0,0,0.75) 0 -1.5em 0 0,rgba(0,0,0,0.75) 1.1em -1.1em 0 0;box-shadow:rgba(0,0,0,0.75) 1.5em 0 0 0,rgba(0,0,0,0.75) 1.1em 1.1em 0 0,rgba(0,0,0,0.75) 0 1.5em 0 0,rgba(0,0,0,0.75) -1.1em 1.1em 0 0,rgba(0,0,0,0.75) -1.5em 0 0 0,rgba(0,0,0,0.75) -1.1em -1.1em 0 0,rgba(0,0,0,0.75) 0 -1.5em 0 0,rgba(0,0,0,0.75) 1.1em -1.1em 0 0}@-webkit-keyframes spinner{0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}}@-moz-keyframes spinner{0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}}@-o-keyframes spinner{0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spinner{0%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}}
+	</style>
+	<script type="text/javascript" src="shared/js/jquery.min.js"></script>
+	<script type="text/javascript" src="shared/js/common.js"></script>
+	<script type="text/javascript" src="shared/js/remodal.js"></script>
+	<script type="text/javascript" src="shared/js/heightLine.js"></script> 
+	<script type="text/javascript" src="shared/js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="shared/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="shared/js/lightbox.min.js"></script>
+	<script type="text/javascript" src="shared/js/shared.js"></script>
+	<script src="https://www.google.com/jsapi" type="text/javascript"></script>
+	<script src="https://apis.google.com/js/platform.js" async defer>
+        {
+            lang: 'ja'
+        }
+    </script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPWZn0oBpanKK7bYn5g65n0yhwT4w4HI0" type="text/javascript"></script>
+	<script>
+		function initialize() {
+			var latlng = new google.maps.LatLng(35.671447,139.769336);
+			var myOptions = {
+			    zoom: 18, /*拡大比率*/
+			    center: latlng, /*表示枠内の中心点*/
+			    mapTypeId: google.maps.MapTypeId.ROADMAP, /*表示タイプの指定*/
+			    mapTypeControl: false,
+			    scrollwheel: false,
+			    clickableIcons: false
+			};
+			var map = new google.maps.Map(document.getElementById('map_import'), myOptions);
+			/*アイコン設定*/
+			var icon = {
+			    path: "M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z",
+			    fillColor: '#000',
+			    fillOpacity: 1,
+			    anchor: new google.maps.Point(200,350),
+			    strokeWeight: 0,
+			    scale: 0.09
+			}
+			var markerOptions = {
+			    position: latlng,
+			    map: map,
+			    icon: icon,
+			    title: 'MAP'
+			};
+			var marker = new google.maps.Marker(markerOptions);
+			/*取得スタイルの貼り付け*/
+			var styleOptions = [
+				{
+				    "stylers": [
+				    { "hue": "#a89b95" }, { "lightness": 0 }, { "gamma": 0.0 }, { "saturation": -100 }
+				    ]
+				}
+			];
+			var styledMapOptions = { name: 'MAP' }
+			var sampleType = new google.maps.StyledMapType(styleOptions, styledMapOptions);
+			map.mapTypes.set('sample', sampleType);
+			map.setMapTypeId('sample');
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <script>
+		function initialize() {
+			var latlng2 = new google.maps.LatLng(35.902955,139.729852);
+			var myOptions = {
+			    zoom: 18, /*拡大比率*/
+			    center: latlng2, /*表示枠内の中心点*/
+			    mapTypeId: google.maps.MapTypeId.ROADMAP, /*表示タイプの指定*/
+			    mapTypeControl: false,
+			    scrollwheel: false,
+			    clickableIcons: false
+			};
+			var map = new google.maps.Map(document.getElementById('map_import2'), myOptions);
+			var icon = {
+		    path: "M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z",
+		    fillColor: '#000',
+		    fillOpacity: 1,
+		    anchor: new google.maps.Point(200,480),
+		    strokeWeight: 0,
+		    scale: 0.09
+			}
+			var markerOptions = {
+			    position: latlng2,
+			    map: map,
+			    icon: icon,
+			    title: 'MAP'
+			};
+			var marker = new google.maps.Marker(markerOptions);
+			/*取得スタイルの貼り付け*/
+			var styleOptions = [
+				{
+				    "stylers": [
+				    { "hue": "#a89b95" }, { "lightness": 0 }, { "gamma": 0.0 }, { "saturation": -100 }
+				    ]
+				}
+			];
+			var styledMapOptions = { name: 'MAP' }
+			var sampleType = new google.maps.StyledMapType(styleOptions, styledMapOptions);
+			map.mapTypes.set('sample', sampleType);
+			map.setMapTypeId('sample');
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+	<script>
+		$(document).ready(function() {
+			$('#agree-checkbox').change(function() {
+				var $this = $(this);
+				var $submitBtn = $('#submit-btn');
+				var checkState = !$this.is(':checked');
+
+				$submitBtn.prop("disabled", checkState);
+			});
+
+			$('#contact-form').submit(function(event) {
+				event.preventDefault();
+
+				if (!validator.validate()) {
+					alert('入力内容に誤りがあります。赤字の項目を見直してください。\n*印の項目は必須入力となります。');
+					return false;
+				}
+
+				if (!confirm('お問い合わせを送信します。よろしいですか？')) {
+					return false;
+				}
+
+				var formData = $(this).serializeArray();
+				
+				$.ajaxSetup({
+					beforeSend: function() {
+						$('#loading-overlay').removeClass('hidden');
+					}
+				});
+
+				$.post(
+					'mail.php',
+					formData,
+					function(response) {
+						if (response.status == 'success') {
+							window.location = 'thankyou.html';
+						} else {
+							$('#loading-overlay').addClass('hidden');
+							alert('メールを送信できませんでした。');
+						}
+					},
+					'json'
+				);
+			});
+
+		});
+
+		var validator = (function() {
+			var $name = $('#name');
+			var $nameKana = $('#name-kana');
+			var $email = $('#email');
+			var $formGroups = $('.form-group');
+
+			var validate = function validate() {
+				var hasError = false;
+
+				$formGroups.removeClass('has-error');
+
+				if (
+					!$email.val() ||
+					!validateEmail($email.val())
+				) {
+					$email.focus();
+					hasError = true;
+					setError($email);
+				}
+
+				if (!$nameKana.val()) {
+					$nameKana.focus();
+					hasError = true;
+					setError($nameKana);
+				}
+
+				if (!$name.val()) {
+					$name.focus();
+					hasError = true;
+					setError($name);
+				}
+
+				scrollToContactForm();
+
+				return !hasError;
+			};
+
+			var validateEmail = function validateEmail(email) {
+			    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			    return re.test(String(email).toLowerCase());
+			};
+
+			var setError = function setError($elem) {
+				$elem.closest('.form-group').addClass( "has-error" );
+			};
+
+			var scrollToContactForm = function scrollToContactForm() {
+				var position = $("#contact-form").offset().top - $('#navmain').height();
+        		$('html,body').animate({ scrollTop: position }, 'fast'); 
+			};
+
+			return {
+				validate: validate
+			}
+		})();
+
+	</script>
+</body>
